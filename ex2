@@ -1,0 +1,12 @@
+class maths():
+  def addition(self,a,b):
+    print(a+b)
+  def subtraction(self,a,b):
+    print(a-b)
+  def multiply(self,a,b):
+    print(a*b)
+    
+d1=maths()
+d1.addition(10,20)
+d1.subtraction(30,40)
+d1.multiply(10,90)
