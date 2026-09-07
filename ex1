@@ -1,0 +1,13 @@
+class student:
+    name="Kprit"
+    age=16
+    def read(self):
+        age=20
+        print(age)
+        print("Reading")
+    def write(self):
+        print("Writing")
+s1=student()
+print(s1.name)
+print(s1.age)
+s1.read()
