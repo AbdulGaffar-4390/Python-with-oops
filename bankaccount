@@ -1,0 +1,16 @@
+class Bankaccount:
+  Balance=int(input("Enter your balance:"))
+  def deposite(self):
+    money=int(input("Enter Amount to deposite:"))
+    self.Balance=self.Balance+money
+    print("Money deposited:")
+  def Withdrawl(self):
+    cash=int(input("Enter cash to withdraw:"))
+    self.Balance=self.Balance-cash
+    print("Cash withdrawed")
+  def display_balance(self):
+    print("Your Balance is:",self.Balance)
+n = Bankaccount()
+n.deposite()
+n.Withdrawl()
+n.display_balance()
