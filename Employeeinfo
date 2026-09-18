@@ -1,0 +1,17 @@
+class Employee:
+  Basic_salary=int(input("Enter salary:"))
+
+  def salary(self):
+    HRA=0.2*self.Basic_salary
+    DA=0.1*self.Basic_salary
+    total_salary=self.Basic_salary+HRA+DA
+    print("HRA:",HRA)
+    print("DA:",DA)
+    print("Total_salary:",total_salary)
+
+Employee_ID=int(input("Enter ID:"))
+Name_Of_Employee=input("Enter name:")
+print("EmployeeID:",Employee_ID)
+print("Name:",Name_Of_Employee)
+e=Employee()
+e.salary()
